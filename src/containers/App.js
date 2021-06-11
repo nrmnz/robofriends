@@ -25,6 +25,9 @@ class App extends Component {
     this.setState({ searchfield: event.target.value });
   };
 
+
+  
+
   render() {
     const { robots, searchfield } = this.state;
     const filteredRobot = robots.filter((robot) => {
