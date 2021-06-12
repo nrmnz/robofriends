@@ -1,3 +1,4 @@
+import { auto } from 'async';
 import React from 'react';
 
 const Scroll = (props) => {
@@ -6,7 +7,7 @@ const Scroll = (props) => {
       style={{
         overflowY: 'scroll',
         border: '2px solid black',
-        height: '500px',
+        height: auto,
       }}
     >
       {props.children}
